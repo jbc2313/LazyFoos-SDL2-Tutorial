@@ -17,3 +17,9 @@ OBJ_NAME = 01_hello_SDL
 #This is the target that compiles our executable
 all : $(OBJS)
 	$(CC) $(OBJS) $(COMPILER_FLAGS) $(LINKER_FLAGS) -o $(OBJ_NAME)
+#Removes the executable ie cleans up the folder
+.PHONEY: clean
+clean:
+	rm *.o 01_hello_SDL 
+	echo Clean done
+	
