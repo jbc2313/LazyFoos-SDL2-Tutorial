@@ -1,13 +1,1 @@
-Copyright Notice:
------------------
-The files within this zip file are copyrighted by Lazy Foo' Productions 2004-2024
-and may not be redistributed without written permission.
-
-This project is linked against:
-----------------------------------------
-Windows:
-SDL2
-SDL2main
-
-*nix:
-SDL2
+This program is simply for learning and is not to be taken seriously
